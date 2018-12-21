@@ -1,0 +1,14 @@
+spring:
+  thymeleaf:
+    mode: HTML5
+  profiles:
+    active: dev
+
+server:
+  port: 8080
+#  ssl:
+#    key-store: scjgks.jks
+#    #key-password指的是 key的密码。
+#    key-password: 123456
+#    key-store-type: jks
+#    key-alias: scjgks

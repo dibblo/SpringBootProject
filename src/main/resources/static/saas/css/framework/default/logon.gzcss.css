@@ -1,0 +1,167 @@
+@CHARSET "UTF-8";
+body{
+    margin:0;
+    padding:0;
+    font-size:12px;
+    font-family:"å®‹ä½“","Arial Narrow";
+    text-align:left;
+}
+table,td,tr,th {font-size:12px;}
+input {/* è§£å†³passwordè¾“å…¥æ¡†æ€»æ˜¯æ¯”å…¶ä»–è¾“å…¥æ¡†é•¿ */
+    font:12px Arial;
+    background:url(/saas/images/framework/default/login/bgInput.gif) left top repeat-x;
+    border:1px solid #1774b1;
+    color:#024272;
+    padding-left:5px;
+    height:19px;
+}
+.small{
+    background-image:url(/saas/images/framework/default/login/bgSmall.jpg);/*å®šä¹‰ç™»å½•ç•Œé¢èƒŒæ™¯å›¾ç‰‡*/
+    background-position: center center; /*èƒŒæ™¯å±…ä¸­æ˜¾ç¤º*/
+    background-repeat :no-repeat; /*èƒŒæ™¯ä¸å¹³é“º*/
+    width : 100%;
+    height: 100%;
+    text-align:center;
+}
+.normal{
+    background-image:url(/saas/images/framework/default/login/bg.jpg);/*å®šä¹‰ç™»å½•ç•Œé¢èƒŒæ™¯å›¾ç‰‡*/
+    background-position: center center; /*èƒŒæ™¯å±…ä¸­æ˜¾ç¤º*/
+    background-repeat :no-repeat; /*èƒŒæ™¯ä¸å¹³é“º*/
+    width : 100%;
+    height: 100%;
+    text-align:center;
+}
+.big{
+    background-image:url(/saas/images/framework/default/login/bgBig.jpg);/*å®šä¹‰ç™»å½•ç•Œé¢èƒŒæ™¯å›¾ç‰‡*/
+    background-position: center center; /*èƒŒæ™¯å±…ä¸­æ˜¾ç¤º*/
+    background-repeat :no-repeat; /*èƒŒæ™¯ä¸å¹³é“º*/
+    width : 100%;
+    height: 100%;
+    text-align:center;
+}
+.normalCollect{
+    background-image:url(/saas/images/framework/default/login/bg-collect.jpg);/*å®šä¹‰ç™»å½•ç•Œé¢èƒŒæ™¯å›¾ç‰‡*/
+    background-position: center center; /*èƒŒæ™¯å±…ä¸­æ˜¾ç¤º*/
+    background-repeat :no-repeat; /*èƒŒæ™¯ä¸å¹³é“º*/
+    width : 100%;
+    height: 100%;
+    text-align:center;
+}
+.smallSingle{
+    background-image:url(/saas/images/framework/default/login/bgSmall-single.jpg);/*å®šä¹‰ç™»å½•ç•Œé¢èƒŒæ™¯å›¾ç‰‡*/
+    background-position: center center; /*èƒŒæ™¯å±…ä¸­æ˜¾ç¤º*/
+    background-repeat :no-repeat; /*èƒŒæ™¯ä¸å¹³é“º*/
+    width : 100%;
+    height: 100%;
+    text-align:center;
+}
+.normalSingle{
+    background-image:url(/saas/images/framework/default/login/bg-single.jpg);/*å®šä¹‰ç™»å½•ç•Œé¢èƒŒæ™¯å›¾ç‰‡*/
+    background-position: center center; /*èƒŒæ™¯å±…ä¸­æ˜¾ç¤º*/
+    background-repeat :no-repeat; /*èƒŒæ™¯ä¸å¹³é“º*/
+    width : 100%;
+    height: 100%;
+    text-align:center;
+}
+.bigSingle{
+    background-image:url(/saas/images/framework/default/login/bgBig-single.jpg);/*å®šä¹‰ç™»å½•ç•Œé¢èƒŒæ™¯å›¾ç‰‡*/
+    background-position: center center; /*èƒŒæ™¯å±…ä¸­æ˜¾ç¤º*/
+    background-repeat :no-repeat; /*èƒŒæ™¯ä¸å¹³é“º*/
+    width : 100%;
+    height: 100%;
+    text-align:center;
+}
+#ca{
+    background-image:url(/saas/images/framework/default/login/causer1.gif);/*å®šä¹‰ç™»å½•ç•Œé¢èƒŒæ™¯å›¾ç‰‡*/
+    background-position: left top;
+    background-repeat :no-repeat; /*èƒŒæ™¯ä¸å¹³é“º*/
+    cursor : pointer; /*ä¸èƒ½ç”¨hand,å› ä¸ºfirefoxä¸æ”¯æŒhand*/
+    width:99px;
+    height:30px;
+}
+#ca:hover{ /*firefox*/
+    background-image:url(/saas/images/framework/default/login/causer2.gif);
+}
+#nonca{
+    width:99px;
+    height:30px;
+}
+
+.user{
+    background-image:url(/saas/images/framework/default/login/titleUser.gif);/*å®šä¹‰ç™»å½•ç•Œé¢èƒŒæ™¯å›¾ç‰‡*/
+    background-position: right bottom;
+    background-repeat :no-repeat; /*èƒŒæ™¯ä¸å¹³é“º*/
+    height:30px;
+}
+
+
+.psw{
+    background-image:url(/saas/images/framework/default/login/titlePsw.gif);/*å®šä¹‰ç™»å½•ç•Œé¢èƒŒæ™¯å›¾ç‰‡*/
+    background-position: right bottom;
+    background-repeat :no-repeat; /*èƒŒæ™¯ä¸å¹³é“º*/
+    height:30px;
+}
+.captcha{
+    background-image:url(/saas/images/framework/default/login/titleCaptcha.gif);/*å®šä¹‰ç™»å½•ç•Œé¢èƒŒæ™¯å›¾ç‰‡*/
+    background-position: right bottom;
+    background-repeat :no-repeat; /*èƒŒæ™¯ä¸å¹³é“º*/
+    width:220px;
+    height:30px;
+}
+.noncaptcha{
+    width:220px;
+    height:30px;
+}
+.icon{
+    background-image:url(/saas/images/framework/default/login/iconInfo.gif);/*å®šä¹‰ç™»å½•ç•Œé¢èƒŒæ™¯å›¾ç‰‡*/
+    background-position: right center;
+    background-repeat :no-repeat; /*èƒŒæ™¯ä¸å¹³é“º*/
+}
+.tip{
+    background-image:url(/saas/images/framework/default/login/tipInfo.gif);/*å®šä¹‰ç™»å½•ç•Œé¢èƒŒæ™¯å›¾ç‰‡*/
+    background-position: left center;
+    background-repeat :no-repeat; /*èƒŒæ™¯ä¸å¹³é“º*/
+}
+#login{
+    background-image:url(/saas/images/framework/default/login/btnLogin.gif);/*å®šä¹‰ç™»å½•ç•Œé¢èƒŒæ™¯å›¾ç‰‡*/
+    background-position: 0px 0px;
+    background-repeat :no-repeat; /*èƒŒæ™¯ä¸å¹³é“º*/
+    width:99px;
+    height:30px;
+    cursor : pointer;
+}
+#login:hover{ /*firefox*/
+    background-position: 0px -30px;
+}
+#cacel{
+    background-image:url(/saas/images/framework/default/login/btnLogin.gif);/*å®šä¹‰ç™»å½•ç•Œé¢èƒŒæ™¯å›¾ç‰‡*/
+    background-position: 0px -60px;
+    background-repeat :no-repeat; /*èƒŒæ™¯ä¸å¹³é“º*/
+    width:99px;
+    height:30px;
+    cursor : pointer;
+}
+#cacel:hover{ /*firefox*/
+    background-position:0px -90px;
+}
+.input {/* è§£å†³passwordè¾“å…¥æ¡†æ€»æ˜¯æ¯”å…¶ä»–è¾“å…¥æ¡†é•¿ */
+    font:12px Arial;
+    background:url(/saas/images/framework/default/login/bgInput.gif) left top repeat-x;
+    border:1px solid #1774b1;
+    color:#024272;
+    padding-left:5px;
+    height:19px;
+}
+.inputValid {/* è§£å†³passwordè¾“å…¥æ¡†æ€»æ˜¯æ¯”å…¶ä»–è¾“å…¥æ¡†é•¿ */
+    font:12px Arial;
+    color:#024272;
+    padding-left:5px;
+    height:19px;
+    background:#fff url(/saas/images/framework/default/login/bgInputValid.gif) repeat-x bottom;
+    border:1px solid #dd7870; /*å¿…å¡«é¡¹æ²¡æœ‰å¡«å†™æ—¶æ˜¾ç¤ºçš„çº¢è‰²è¾¹æ¡†*/
+}
+.x-form-element{/* å®šä¹‰è¡¨å•å†…å®¹é¡¹æ ¼å­æ ·å¼*/
+    padding:0px 0 0px 0px;/*å®šä¹‰æ”¾è¾“å…¥æ¡†çš„æ ¼å­çš„è¾¹æ¡†*/
+    position:relative;
+    border:0px ;/*è¡¨å•é¡¹å³å³ä¾§æ ¼å­å³è¾¹æ¡†æ ·å¼*/
+}

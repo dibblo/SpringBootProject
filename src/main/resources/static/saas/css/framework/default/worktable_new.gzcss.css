@@ -1,0 +1,1303 @@
+/* ************************************
+* file name：worktable.css
+* Create personnel：李艳
+* Create Date：2009-07-25
+* Modify Date：2009-10-30
+* contact：liyand@taiji.com.cn
+* content：低保业务系统-默认风格-工作台样式文件
+*************************************/
+@CHARSET "UTF-8";
+
+
+/* @描述：工作台样式 */
+#bgNormal{
+    background:#04407F url(../../../images/business/saas/default/worktable/bgWorktableNew.jpg) center center no-repeat;/*改变背景图片*/
+    width:100%;
+    height:100%;
+    vertical-align:middle;
+}
+#bgBig{
+    background:#04407F url(../../../images/business/saas/default/worktable/bgWorktableNewBig.jpg) center center no-repeat;
+    width:100%;
+    height:100%;
+    vertical-align:middle;
+}
+.logo { /*定义logo样式*/
+    width: 100%;
+    height: 110px;
+    background: url(../../../images/business/saas/default/logo/logoBig.png) center top no-repeat;	/*定义logo以背景图形式居左居上显示 不重复*/
+}
+.logoSingle { /*定义logo样式*/
+    width: 100%;
+    height: 110px;
+    background: url(../../../images/business/saas/default/logo/logoBig-single.png) center top no-repeat;	/*定义logo以背景图形式居左居上显示 不重复*/
+}
+.btnArea{
+    width: 100%;
+    height: 60px;
+    padding-top:20px;
+}
+.btnExit{
+    float:right;
+    background:url(../../../images/business/saas/default/icon/iconHeaderNew.png) no-repeat -80px 0;
+    width:40px;
+    height:40px;
+    margin-right : 30px;
+    cursor:pointer;
+}
+.btnHelp{
+    float:right;
+    background:url(../../../images/business/saas/default/icon/iconHeaderNew.png) no-repeat -120px 0;
+    width:40px;
+    height:40px;
+    cursor:pointer;
+}
+
+.btnSystem{
+    float:right;
+    background:url(../../../images/business/saas/default/icon/iconHeaderNew.png) no-repeat 0px 0;
+    width:40px;
+    height:40px;
+    cursor:pointer;
+}
+.btnSetPsw{
+    float:right;
+    background:url(../../../images/business/saas/default/icon/iconHeaderNew.png) no-repeat -40px 0;
+    width:40px;
+    height:40px;
+    cursor:pointer;
+}
+.btnMesActive{
+    float:right;
+    width:40px;
+    height:40px;
+    cursor:pointer;
+}
+.btnMes{
+    float:right;
+    background:url(../../../images/business/saas/default/icon/iconHeaderNew.png) no-repeat -160px 0;
+    width:40px;
+    height:40px;
+    cursor:auto;
+}
+.tabArea{
+    width:100%;
+    vertical-align:middle;
+    text-align:center;
+}
+.selectModelLine{background:url(../../../images/business/saas/default/worktable/line.png) left top no-repeat;width:10px;height:59px;}
+#title01{
+    float:left;
+    width:226px;
+    height:69px;
+    background: url(../../../images/business/saas/default/worktable/iconWorktable.png) left top no-repeat;
+    left:40%;
+    top:8px;
+    position:relative;
+}
+.systemTitle{
+    float:left;
+    left:65px;
+    top:102px;
+    position:relative;
+}
+
+/* @描述：定义选择业务模块样式 */
+
+#selectModel{
+    float:left;
+    width:620px;
+    height:290px;
+    left:30%;
+    top:13%!important;
+    top:14%;
+    position:relative;
+}
+
+#selectModel ul li{
+    float:left;
+    height:65px;
+    text-align:center;
+    vertical-align:middle;
+    width:135px;
+    margin:0 5px 25px 5px!important;
+    margin:0 5px;
+
+}
+/* 01 定义基础数据管理业务文字和图标样式*/
+#icon01{
+    float:left;
+    width:135px;
+    height:95px;
+    overflow:hidden;
+    text-align:center;
+}
+#icon01 a{
+    float:left;
+    width:100px;
+    height:95px;
+    background:url(../../../images/business/saas/default/worktable/icon01.png) 15px 0px no-repeat;
+    cursor:pointer;
+    color:#000066;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    font-size:12px;
+    text-decoration:none;
+    white-space:nowrap;
+    overflow:hidden;
+    margin-left:15px;
+}
+#icon01 a:hover{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon01.png) 15px -100px no-repeat;
+    cursor:pointer;
+    color:#660066;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    text-decoration:none;
+    white-space:nowrap;
+}
+#iconGray01 a{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon01.png) 15px -200px no-repeat;
+    cursor:pointer;
+    color:#666;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    text-decoration:none;
+    white-space:nowrap;
+}
+
+
+/* 02 定义城市低保业务文字和图标样式*/
+
+#icon02{
+    float:left;
+    width:135px;
+    height:95px;
+    overflow:hidden;
+}
+#icon02 a{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon01.png) 15px -300px no-repeat;
+    cursor:pointer;
+    color:#000066;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    font-size:12px;
+    text-decoration:none;
+    white-space:nowrap;
+    overflow:hidden;
+    margin-left:15px;
+    text-align:center;
+}
+#icon02 a:hover{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon01.png) 15px -400px no-repeat;
+    cursor:pointer;
+    color:#660066;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    text-decoration:none;
+    white-space:nowrap;
+}
+#iconGray02 a{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon01.png) 15px -500px no-repeat;
+    cursor:pointer;
+    color:#666;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    text-decoration:none;
+    white-space:nowrap;
+}
+
+
+/* 03 定义农村低保业务文字和图标样式*/
+
+#icon03{
+    float:left;
+    width:135px;
+    height:95px;
+    overflow:hidden;
+}
+#icon03 a{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon01.png) 15px -600px no-repeat;
+    cursor:pointer;
+    color:#000066;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    font-size:12px;
+    text-decoration:none;
+    white-space:nowrap;
+    overflow:hidden;
+    margin-left:15px;
+    text-align:center;
+}
+#icon03 a:hover{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon01.png) 15px -700px no-repeat;
+    cursor:pointer;
+    color:#660066;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    text-decoration:none;
+    white-space:nowrap;
+}
+#iconGray03 a{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon01.png) 15px -800px no-repeat;
+    cursor:pointer;
+    color:#666;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    text-decoration:none;
+    white-space:nowrap;
+}
+
+/* 04 定义农村五保业务文字和图标样式*/
+
+#icon04{
+    float:left;
+    width:135px;
+    height:95px;
+    overflow:hidden;
+}
+#icon04 a{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon02.png) 15px 0px no-repeat;
+    cursor:pointer;
+    color:#000066;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    font-size:12px;
+    text-decoration:none;
+    white-space:nowrap;
+    overflow:hidden;
+    margin-left:15px;
+    text-align:center;
+}
+#icon04 a:hover{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon02.png) 15px -100px no-repeat;
+    cursor:pointer;
+    color:#660066;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    text-decoration:none;
+    white-space:nowrap;
+}
+#iconGray04 a{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon02.png) 15px -200px no-repeat;
+    cursor:pointer;
+    color:#666;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    text-decoration:none;
+    white-space:nowrap;
+}
+
+/* 05 定义城市医疗救助业务文字和图标样式*/
+
+#icon05{
+    float:left;
+    width:135px;
+    height:95px;
+    overflow:hidden;
+
+}
+#icon05 a{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon02.png) 15px -300px no-repeat;
+    cursor:pointer;
+    color:#000066;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    font-size:12px;
+    text-decoration:none;
+    white-space:nowrap;
+    overflow:hidden;
+    margin-left:15px;
+    text-align:center;
+}
+#icon05 a:hover{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon02.png) 15px -400px no-repeat;
+    cursor:pointer;
+    color:#660066;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    text-decoration:none;
+    white-space:nowrap;
+}
+#iconGray05 a{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon02.png) 15px -500px no-repeat;
+    cursor:pointer;
+    color:#666;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    text-decoration:none;
+    white-space:nowrap;
+}
+
+/* 06 定义农村医疗救助业务文字和图标样式*/
+
+#icon06{
+    float:left;
+    width:135px;
+    height:95px;
+    overflow:hidden;
+}
+#icon06 a{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon02.png) 15px -600px no-repeat;
+    cursor:pointer;
+    color:#000066;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    font-size:12px;
+    text-decoration:none;
+    white-space:nowrap;
+    overflow:hidden;
+    margin-left:15px;
+    text-align:center;
+}
+#icon06 a:hover{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon02.png) 15px -700px no-repeat;
+    cursor:pointer;
+    color:#660066;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    text-decoration:none;
+    white-space:nowrap;
+}
+#iconGray06 a{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon02.png) 15px -800px no-repeat;
+    cursor:pointer;
+    color:#666;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    text-decoration:none;
+    white-space:nowrap;
+}
+
+/* 07 定义专项救助业务文字和图标样式*/
+#icon07{
+    float:left;
+    width:135px;
+    height:95px;
+    overflow:hidden;
+}
+#icon07 a{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon05.png) 15px 0px no-repeat;
+    cursor:pointer;
+    color:#000066;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    font-size:12px;
+    text-decoration:none;
+    white-space:nowrap;
+    overflow:hidden;
+    margin-left:15px;
+    text-align:center;
+}
+#icon07 a:hover{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon05.png) 15px -100px no-repeat;
+    cursor:pointer;
+    color:#660066;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    text-decoration:none;
+    white-space:nowrap;
+
+}
+#iconGray07 a{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon05.png) 15px -200px no-repeat;
+    cursor:pointer;
+    color:#666;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    text-decoration:none;
+    white-space:nowrap;
+}
+
+/* 08 定义临时救助业务文字和图标样式*/
+
+#icon08{
+    float:left;
+    width:135px;
+    height:95px;
+    overflow:hidden;
+}
+#icon08 a{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon03.png) 15px -300px no-repeat;
+    cursor:pointer;
+    color:#000066;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    font-size:12px;
+    text-decoration:none;
+    white-space:nowrap;
+    overflow:hidden;
+    margin-left:15px;
+    text-align:center;
+}
+#icon08 a:hover{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon03.png) 15px -400px no-repeat;
+    cursor:pointer;
+    color:#660066;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    text-decoration:none;
+    white-space:nowrap;
+}
+#iconGray08 a{/*定义按钮不可用置灰状态*/
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon03.png) 15px -500px no-repeat;
+    cursor:pointer;
+    color:#666;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    text-decoration:none;
+    white-space:nowrap;
+}
+
+/* 09 定义传统对象救助业务文字和图标样式*/
+
+#icon09{
+    float:left;
+    width:135px;
+    height:95px;
+
+    overflow:hidden;
+}
+#icon09 a{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon03.png) 15px -600px no-repeat;
+    cursor:pointer;
+    color:#000066;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    font-size:12px;
+    text-decoration:none;
+    white-space:nowrap;
+    overflow:hidden;
+    margin-left:15px;
+    text-align:center;
+
+}
+#icon09 a:hover{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon03.png) 15px -700px no-repeat;
+    cursor:pointer;
+    color:#660066;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    text-decoration:none;
+    white-space:nowrap;
+}
+#iconGray09 a{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon03.png) 15px -800px no-repeat;
+    cursor:pointer;
+    color:#666;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    text-decoration:none;
+    white-space:nowrap;
+}
+/* 10 定义低收入认定业务文字和图标样式*/
+
+#icon10{
+    float:left;
+    width:135px;
+    height:100px;
+    overflow:hidden;
+
+}
+#icon10 a{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon04.png) 15px 0px no-repeat;
+    cursor:pointer;
+    color:#000066;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    font-size:12px;
+    text-decoration:none;
+    white-space:nowrap;
+    overflow:hidden;
+    margin-left:15px;
+    text-align:center;
+}
+#icon10 a:hover{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon04.png) 15px -100px no-repeat;
+    cursor:pointer;
+    color:#660066;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    text-decoration:none;
+    white-space:nowrap;
+}
+#iconGray10 a{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon04.png) 15px -200px no-repeat;
+    cursor:pointer;
+    color:#666;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    text-decoration:none;
+    white-space:nowrap;
+}
+
+/* 11 综合查询业务文字和图标样式*/
+
+#icon11{
+    float:left;
+    width:135px;
+    height:95px;
+    overflow:hidden;
+}
+#icon11 a{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon04.png) 15px -300px no-repeat;
+    cursor:pointer;
+    color:#000066;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    font-size:12px;
+    text-decoration:none;
+    white-space:nowrap;
+    overflow:hidden;
+    margin-left:15px;
+    text-align:center;
+}
+#icon11 a:hover{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon04.png) 15px -400px no-repeat;
+    cursor:pointer;
+    color:#660066;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    text-decoration:none;
+    white-space:nowrap;
+}
+#iconGray11 a{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon04.png) 15px -500px no-repeat;
+    cursor:pointer;
+    color:#666;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    text-decoration:none;
+    white-space:nowrap;
+}
+
+
+/* 12 定义就诊信息管理业务文字和图标样式*/
+
+#icon12{
+    float:left;
+    width:135px;
+    height:95px;
+    overflow:hidden;
+}
+#icon12 a{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon04.png) 15px -600px no-repeat;
+    cursor:pointer;
+    color:#000066;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    font-size:12px;
+    text-decoration:none;
+    white-space:nowrap;
+    overflow:hidden;
+    margin-left:15px;
+    text-align:center;
+}
+#icon12 a:hover{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon04.png) 15px -700px no-repeat;
+    cursor:pointer;
+    color:#660066;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    text-decoration:none;
+    white-space:nowrap;
+}
+#iconGray12 a{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon04.png) 15px -800px no-repeat;
+    cursor:pointer;
+    color:#666;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    text-decoration:none;
+    white-space:nowrap;
+}
+
+/* 13 定义住房救助业务文字和图标样式*/
+#icon13{
+    float:left;
+    width:135px;
+    height:95px;
+    overflow:hidden;
+}
+#icon13 a{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon05.png) 15px 0px no-repeat;
+    cursor:pointer;
+    color:#000066;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    font-size:12px;
+    text-decoration:none;
+    white-space:nowrap;
+    overflow:hidden;
+    margin-left:15px;
+    text-align:center;
+}
+#icon13 a:hover{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon05.png) 15px -100px no-repeat;
+    cursor:pointer;
+    color:#660066;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    text-decoration:none;
+    white-space:nowrap;
+}
+#icon13 a:active{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon05.png) 15px -200px no-repeat;
+    cursor:pointer;
+    color:#666;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    text-decoration:none;
+    white-space:nowrap;
+}
+
+/* 14 定义节日慰问业务文字和图标样式*/
+
+#icon14{
+    float:left;
+    width:135px;
+    height:95px;
+    overflow:hidden;
+}
+#icon14 a{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon05.png) 15px -300px no-repeat;
+    cursor:pointer;
+    color:#000066;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    font-size:12px;
+    text-decoration:none;
+    white-space:nowrap;
+    overflow:hidden;
+    margin-left:15px;
+    text-align:center;
+}
+#icon14 a:hover{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon05.png) 15px -400px no-repeat;
+    cursor:pointer;
+    color:#660066;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    text-decoration:none;
+    white-space:nowrap;
+}
+#icon14 a:active{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon05.png) 15px -500px no-repeat;
+    cursor:pointer;
+    color:#666;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    text-decoration:none;
+    white-space:nowrap;
+}
+
+/* 15 定义60年代精简退职业务文字和图标样式*/
+
+#icon15{
+    float:left;
+    width:135px;
+    height:95px;
+    overflow:hidden;
+}
+#icon15 a{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon05.png) 15px -600px no-repeat;
+    cursor:pointer;
+    color:#000066;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    font-size:12px;
+    text-decoration:none;
+    white-space:nowrap;
+    overflow:hidden;
+    margin-left:15px;
+    text-align:center;
+}
+#icon15 a:hover{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon05.png) 15px -700px no-repeat;
+    cursor:pointer;
+    color:#660066;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    text-decoration:none;
+    white-space:nowrap;
+}
+#icon15 a:active{
+    float:left;
+    width:100px;
+    height:95px;
+    background: url(../../../images/business/saas/default/worktable/icon05.png) 15px -800px no-repeat;
+    cursor:pointer;
+    color:#666;
+    padding-top:20px;
+    vertical-align:bottom ;
+    line-height:95px;
+    font-weight:bold;
+    text-decoration:none;
+    white-space:nowrap;
+}
+
+
+
+/* @ 定义选择七大子系统样式*/
+#selectBusiness{
+    float:left;
+    width:80%;
+    height:200px;
+    left:215px;
+    top:105px;
+    position:relative;
+}
+/* 01 定义救助业务子系统样式*/
+#iconBusiness01{
+    float:left;
+    width:112px;
+    height:200px;
+}
+#iconBusiness01 span{/*定义信息交换子系统菜单默认时的状态*/
+    float:left;
+    background: url(../../../images/business/saas/default/worktable/iconBusiness.png) 0px 0px no-repeat;
+    width:112px;
+    height:100px;
+    margin-left:15px;
+}
+#iconBusiness01 span a:hover{/*定义信息交换子系统菜单浮动时的状态*/
+    float:left;
+    background: url(../../../images/business/saas/default/worktable/iconBusiness.png) 0px -272px no-repeat;
+    width:112px;
+    height:120px;
+    overflow:hidden;
+}
+.selcetedBusiness01{/*定义信息交换子系统菜单选中时的状态*/
+    float:left;
+    background: url(../../../images/business/saas/default/worktable/iconBusiness.png) 0px -272px no-repeat;
+    width:112px;
+    height:150px;
+}
+.grayBusiness01{/*定义信息交换子系统菜单置灰时的状态*/
+    float:left;
+    background: url(../../../images/business/saas/default/worktable/iconBusiness.png) 0px -408px no-repeat;
+    width:112px;
+    height:150px;
+}
+/* 02 定义资金管理子系统样式*/
+#iconBusiness02{
+    float:left;
+    width:112px;
+    height:200px;
+}
+#iconBusiness02 span{/*定义资金管理子系统菜单默认时的状态*/
+    float:left;
+    background: url(../../../images/business/saas/default/worktable/iconBusiness.png) -120px 0px no-repeat;
+    width:112px;
+    height:100px;
+    margin-left:15px;
+}
+#iconBusiness02 span a:hover{/*定义资金管理子系统菜单浮动时的状态*/
+    float:left;
+    background: url(../../../images/business/saas/default/worktable/iconBusiness.png) -120px -278px no-repeat;
+    width:112px;
+    height:120px;
+    overflow:hidden;
+}
+.selcetedBusiness02{/*定义资金管理子系统菜单选中时的状态*/
+    float:left;
+    background: url(../../../images/business/saas/default/worktable/iconBusiness.png) -120px -272px no-repeat;
+    width:112px;
+    height:150px;
+}
+.grayBusiness02{/*定义资金管理子系统菜单置灰时的状态*/
+    float:left;
+    background: url(../../../images/business/saas/default/worktable/iconBusiness.png) -120px -408px no-repeat;
+    width:112px;
+    height:150px;
+}
+/* 03 定义业务监管子系统样式*/
+#iconBusiness03{
+    float:left;
+    width:112px;
+    height:200px;
+}
+#iconBusiness03 span{/*定义业务监管子系统菜单默认时的状态*/
+    float:left;
+    background: url(../../../images/business/saas/default/worktable/iconBusiness.png) -240px 0px no-repeat;
+    width:112px;
+    height:100px;
+    margin-left:15px;
+}
+#iconBusiness03 span a:hover{/*定义业务监管子系统菜单选中时的状态*/
+    float:left;
+    background: url(../../../images/business/saas/default/worktable/iconBusiness.png) -240px -278px no-repeat;
+    width:112px;
+    height:120px;
+    overflow:hidden;
+
+}
+.selcetedBusiness03{/*定义业务监管子系统菜单选中时的状态*/
+    float:left;
+    background: url(../../../images/business/saas/default/worktable/iconBusiness.png) -240px -278px no-repeat;
+    width:112px;
+    height:120px;
+    overflow:hidden;
+}
+.grayBusiness03{/*定义业务监管子系统菜单置灰时的状态*/
+    float:left;
+    background: url(../../../images/business/saas/default/worktable/iconBusiness.png) -240px -408px no-repeat;
+    width:112px;
+    height:150px;
+}
+/* 04 定义统计决策子系统样式*/
+#iconBusiness04{
+    float:left;
+    width:112px;
+    height:200px;
+}
+#iconBusiness04 span{/*定义统计决策子系统菜单默认时的状态*/
+    float:left;
+    background: url(../../../images/business/saas/default/worktable/iconBusiness.png) -350px 0px no-repeat;
+    width:112px;
+    height:100px;
+    margin-left:15px;
+}
+#iconBusiness04 span a:hover{/*定义统计决策子系统菜单浮动时的状态*/
+    float:left;
+    background: url(../../../images/business/saas/default/worktable/iconBusiness.png) -350px -272px no-repeat;
+    width:112px;
+    height:120px;
+    overflow:hidden;
+}
+.selcetedBusiness04{/*定义统计决策子系统菜单选中时的状态*/
+    float:left;
+    background: url(../../../images/business/saas/default/worktable/iconBusiness.png) -350px -272px no-repeat;
+    width:112px;
+    height:100px;
+    overflow:hidden;
+}
+.grayBusiness04{/*定义统计决策子系统菜单置灰时的状态*/
+    float:left;
+    background: url(../../../images/business/saas/default/worktable/iconBusiness.png) -350px -408px no-repeat;
+    width:112px;
+    height:150px;
+}
+/* 05 定义预警监测子系统样式*/
+#iconBusiness05{
+    float:left;
+    width:112px;
+    height:200px;
+}
+#iconBusiness05 span{/*定义业务监管子系统菜单默认时的状态*/
+    float:left;
+    background: url(../../../images/business/saas/default/worktable/iconBusiness.png) -460px 0px no-repeat;
+    width:112px;
+    height:100px;
+    margin-left:15px;
+}
+#iconBusiness05 span a:hover{/*定义业务监管子系统菜单选中时的状态*/
+    float:left;
+    background: url(../../../images/business/saas/default/worktable/iconBusiness.png) -460px -278px no-repeat;
+    width:112px;
+    height:120px;
+    overflow:hidden;
+
+}
+.selcetedBusiness05{/*定义业务监管子系统菜单选中时的状态*/
+    float:left;
+    background: url(../../../images/business/saas/default/worktable/iconBusiness.png) -460px -278px no-repeat;
+    width:112px;
+    height:120px;
+    overflow:hidden;
+}
+.grayBusiness05{/*定义业务监管子系统菜单置灰时的状态*/
+    float:left;
+    background: url(../../../images/business/saas/default/worktable/iconBusiness.png) -460px -408px no-repeat;
+    width:112px;
+    height:150px;
+}
+/* 06 定义信息服务子系统样式*/
+#iconBusiness06{
+    float:left;
+    width:112px;
+    height:200px;
+}
+#iconBusiness06 span{/*定义信息服务子系统菜单默认时的状态*/
+    float:left;
+    background: url(../../../images/business/saas/default/worktable/iconBusiness.png) -570px 0px no-repeat;
+    width:112px;
+    height:100px;
+    margin-left:15px;
+}
+#iconBusiness06 span a:hover{/*定义信息服务子系统菜单浮动时的状态*/
+    float:left;
+    background: url(../../../images/business/saas/default/worktable/iconBusiness.png) -570px -278px no-repeat;
+    width:112px;
+    height:120px;
+    overflow:hidden;
+}
+.selcetedBusiness06{/*定义信息服务子系统菜单选中时的状态*/
+    float:left;
+    background: url(../../../images/business/saas/default/worktable/iconBusiness.png) -570px -272px no-repeat;
+    width:112px;
+    height:150px;
+}
+.grayBusiness06{/*定义信息服务子系统菜单置灰时的状态*/
+    float:left;
+    background: url(../../../images/business/saas/default/worktable/iconBusiness.png) -570px -408px no-repeat;
+    width:112px;
+    height:150px;
+}
+/* 07 定义信息交换子系统样式*/
+#iconBusiness07{
+    float:left;
+    width:112px;
+    height:200px;
+}
+#iconBusiness07 span{/*定义信息交换子系统菜单默认时的状态*/
+    float:left;
+    background: url(../../../images/business/saas/default/worktable/iconBusiness.png) -680px 0px no-repeat;
+    width:112px;
+    height:100px;
+    margin-left:15px;
+}
+#iconBusiness07 span a:hover{/*定义信息交换子系统菜单浮动时的状态*/
+    float:left;
+    background: url(../../../images/business/saas/default/worktable/iconBusiness.png) -680px -272px no-repeat;
+    width:112px;
+    height:120px;
+    overflow:hidden;
+}
+.selcetedBusiness07{/*定义信息交换子系统菜单选中时的状态*/
+    float:left;
+    background: url(../../../images/business/saas/default/worktable/iconBusiness.png) -680px -272px no-repeat;
+    width:112px;
+    height:150px;
+}
+.grayBusiness07{/*定义信息交换子系统菜单置灰时的状态*/
+    float:left;
+    background: url(../../../images/business/saas/default/worktable/iconBusiness.png) -680px -408px no-repeat;
+    width:112px;
+    height:150px;
+}
+
+/* ************************************
+* Modify Date：2010-08-07
+* contact：liyand@taiji.com.cn
+* content：定义tab标签样式
+************************************ */
+
+/* tab标签页开始 */
+
+
+
+#subMenu{
+    float:left;
+    width:880px;
+    background: url(../../../images/business/saas/default/worktable/selectBusiness.png) no-repeat left 100%;
+    height:315px;
+    padding-left:40px;
+    vertical-align:middle;
+    text-align:left;
+    font-size:12px;
+    font-weight:bold;
+    color:#0b2184;
+}
+
+
+#containerzjjs {
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+}
+
+#containerzjjs #titlezjjs {
+    height: 45px;
+    margin-left:10px;
+}
+#containerzjjs #titlezjjs li {
+    float: left;
+    list-style-type: none;
+    width:135px;
+    height: 45px;
+    line-height: 45px;
+    font-size:14px;
+}
+#containerzjjs #titlezjjs ul {
+    height: 45px;
+}
+#containerzjjs #titlezjjs a {/*定义未选中标签字体样式*/
+    text-decoration: none;
+    color: #0b2184;
+    font-weight:bold;
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    vertical-align:bottom;
+    background: url(../../../images/business/saas/default/worktable/bgTabMenu.gif) no-repeat 0 0;
+    text-align:center;
+
+
+}
+
+
+#containerzjjs #titlezjjs .selectzjjsli {
+    text-decoration: none;
+    color: #ff0;
+    font-weight:bold;
+    display: block;
+    width: auto;
+    background: url(../../../images/business/saas/default/worktable/bgTabMenu.gif) no-repeat 0 -45px;
+}
+
+
+.hidecontentzjjs {display:none;}
+.strong3{
+    width:48px;
+    height:16px;
+    position:absolute;
+    left:0;
+    top:0;
+    display:block;
+    background:transparent url(../../../images/framework/default/strong_3.bmp) no-repeat 0 0px;
+}
+.strong1{
+    width:48px;
+    height:16px;
+    position:absolute;
+    left:0;
+    top:0;
+    display:block;
+    background:transparent url(../../../images/framework/default/strong_1.bmp) no-repeat 0 0px;
+}
+.strong2{
+    width:48px;
+    height:16px;
+    position:absolute;
+    left:0;
+    top:0;
+    display:block;
+    background:transparent url(../../../images/framework/default/strong_2.bmp) no-repeat 0 0px;
+}
+.strong4{
+    width:48px;
+    height:16px;
+    position:absolute;
+    left:0;
+    top:0;
+    display:block;
+    background:transparent url(../../../images/framework/default/strong_4.bmp) no-repeat 0 0px;
+}

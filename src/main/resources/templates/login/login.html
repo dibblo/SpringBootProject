@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<macro></macro>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+    <script type="text/javascript" th:src="@{js/jquery-1.12.3.min.js}" src="../../static/js/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" th:src="@{bootstrap-3.3.7/dist/js/bootstrap.js}"
+            src="../../static/bootstrap-3.3.7/dist/js/bootstrap.js"></script>
+    <!--<script type="text/javascript" src="/bootstrap-3.3.7/dist/js/npm.js" ></script>-->
+    <!--[if lt IE 9]>
+    <script th:src="@{js/html5shiv.js}" src="../../static/js/html5shiv.js"></script>
+    <script th:src="@{js/respond.min.js}" src="../../static/js/respond.min.js"></script><![endif]-->
+    <link th:href="@{bootstrap-3.3.7/dist/css/bootstrap.min.css}"
+          href="../../static/bootstrap-3.3.7/dist/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+<h2>
+    <h1>
+        <fn:msg value="title"></fn:msg>
+    </h1>
+</h2>
+</body>
+</html>

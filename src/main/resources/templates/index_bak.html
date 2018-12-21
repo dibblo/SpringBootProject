@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns="http://www.w3.org/1999/xhtml"
+                                                xmlns:th="http://www.thymeleaf.org">
+<macro></macro>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+    <script type="text/javascript" th:src="@{js/jquery-1.12.3.min.js}" src="../static/js/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" th:src="@{bootstrap-3.3.7/dist/js/bootstrap.js}"
+            src="../static/bootstrap-3.3.7/dist/js/bootstrap.js"></script>
+    <!--<script type="text/javascript" src="/bootstrap-3.3.7/dist/js/npm.js" ></script>-->
+    <!--[if lt IE 9]>
+    <script th:src="@{js/html5shiv.js}" src="../static/js/html5shiv.js"></script>
+    <script th:src="@{js/respond.min.js}" src="../static/js/respond.min.js"></script><![endif]-->
+    <link th:href="@{bootstrap-3.3.7/dist/css/bootstrap.min.css}"
+          href="../static/bootstrap-3.3.7/dist/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+<h2>
+    <h1>
+        <fn:msg value="title"></fn:msg>
+    </h1>
+</h2>
+<div id="header"></div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3 text-center"><a href="http://sgaiwan.37.com/w/sys.html?c=818&amp;uid=1458646"><img
+                src="http://img1.37wanimg.com/dts/css/images/2017/logo.png?t=mlogo"
+                class="img-responsive" alt="Responsive image"/></a></div>
+        <div class="col-md-3 text-center"><img src="http://img1.37wanimg.com/dts/css/images/2017/logo.png?t=mlogo"
+                                               class="img-responsive" alt="Responsive image"/></div>
+        <div class="col-md-3 text-center"><img src="http://img1.37wanimg.com/dts/css/images/2017/logo.png?t=mlogo"
+                                               class="img-responsive" alt="Responsive image"/></div>
+        <div class="col-md-3 text-center"><img src="http://img1.37wanimg.com/dts/css/images/2017/logo.png?t=mlogo"
+                                               class="img-responsive" alt="Responsive image"/></div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12"></div>
+        <div class="col-xs-4"><em>联系我们：<a href="tencent://message/?uin=54089700&amp;Site=localhost:8080&amp;Menu=yes">QQ：540849700</a></em>
+        </div>
+    </div>
+</div>
+<div id="footer"></div>
+</body>
+</html>

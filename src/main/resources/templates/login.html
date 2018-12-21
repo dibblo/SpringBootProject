@@ -1,0 +1,162 @@
+<html>
+<head>
+    <title>全国最低生活保障信息系统(民政部信息中心-业务系统)</title>
+    <meta charset="utf-8">
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+    <html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="saas/css/framework/default/progress.gzcss.css" />
+        <script type="text/javascript" src="saas/scripts/js/common/md5.gzjs.js"></script>
+    </head>
+    <script type="text/javascript">
+        window.onload = function () {
+            //if(document.readyState=="complete") {
+            proess();
+            //}
+        }
+        function proess(){
+            document.getElementsByTagName('body')[0].removeChild(document.getElementById('divprogressbar'));
+        }
+
+    </script>
+<body>
+<div id="divprogressbar"
+     style="width: 100%; height: 100%; left: 0px; top: 0px; background-color: white; filter: alpha (      opacity =      100 ); z-index: 50000">
+    <div style="text-align: center; padding-top: 200px;">
+        <table align="center" border="0" width="239" cellspacing="0" cellpadding="0"  height="13">
+
+            <tr>
+                <td style="font-size: 12px; line-height: 200%;width:239px;" align="center" class="mask-loading">
+
+                    <marquee  direction="right"
+                              width="239" scrollamount="5" scrolldelay="10">
+                        <table cellspacing="1" cellpadding="0">
+                            <tr height=8>
+                                <td class="loading-block"></td>
+                                <td></td>
+                                <td class="loading-block"></td>
+                                <td></td>
+                                <td class="loading-block"></td>
+                                <td></td>
+                                <td class="loading-block"></td>
+                                <td></td>
+                                <td class="loading-block"></td>
+                                <td></td>
+                                <td class="loading-block"></td>
+                                <td></td>
+
+                            </tr>
+
+                        </table>
+                    </marquee>
+                </td>
+            </tr>
+            <tr><td style="font-size:12px; color:333;" height="30" align="center">正在加载数据，请稍等...</td></tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>
+
+<link rel="stylesheet" type="text/css" href="saas/css/framework/default/worktable_new.gzcss.css" />
+<link rel="stylesheet" type="text/css" href="saas/css/framework/default/t1-all.gzcss.css" />
+<script type="text/javascript">
+    var systemType = 1;
+    var singleBusiness = false;
+    var biPath = "http://182.140.197.210:7888/reportmis/";
+    var scanType = "000";
+    var isVerify = "00";
+    var username="rongxian001";
+    var config1 = [{text:'城市低保',ico:'null',href:'nodeId=4028a1c5263b01f101263b0ef99b0003&nodeName=城市低保&parentNodeName=救助业务子系统'},{text:'农村低保',ico:'null',href:'nodeId=4028a1de264c5b2a01264c7d13660001&nodeName=农村低保&parentNodeName=救助业务子系统'},{text:'特困人员',ico:'null',href:'nodeId=4028a1cb2640fe5b012641356eb40001&nodeName=特困人员&parentNodeName=救助业务子系统'},{text:'城市医疗救助',ico:'null',href:'nodeId=4028a1bf264c8c6701264ccde9cb0001&nodeName=城市医疗救助&parentNodeName=救助业务子系统'},{text:'农村医疗救助',ico:'null',href:'nodeId=4028a1cb264e828301264f82b2750010&nodeName=农村医疗救助&parentNodeName=救助业务子系统'},{text:'专项救助',ico:'null',href:'nodeId=4028a1c62646907401264692d8070001&nodeName=专项救助&parentNodeName=救助业务子系统'},{text:'临时救助',ico:'null',href:'nodeId=4028a1d526423652012642783ded0001&nodeName=临时救助&parentNodeName=救助业务子系统'},{text:'低收入家庭登记',ico:'null',href:'nodeId=4028a1cb264e828301264f9c5f45001f&nodeName=低收入家庭登记&parentNodeName=救助业务子系统'},{text:'传统救济',ico:'null',href:'nodeId=4028a1472d4ebcd7012d4f8450f80001&nodeName=传统救济&parentNodeName=救助业务子系统'},{text:'基础数据管理',ico:'null',href:'nodeId=4028a1cb264155dd01264166c69a0001&nodeName=基础数据管理&parentNodeName=救助业务子系统'},{text:'申请身份代码',ico:'null',href:'nodeId=402881e52d5a782b012d5a8a98c10001&nodeName=申请身份代码&parentNodeName=救助业务子系统'},{text:'业务配置',ico:'null',href:'nodeId=4028a1382896090d012896e766c40144&nodeName=业务配置&parentNodeName=救助业务子系统'}];
+    var config2 = [{text:'资金登记',ico:'null',href:'nodeId=4028a1cb2651518e01265199708f0042&nodeName=资金登记&parentNodeName=资金管理子系统'},{text:'资金支付',ico:'null',href:'nodeId=4028a1cb2651518e0126519a69090049&nodeName=资金支付&parentNodeName=资金管理子系统'}];
+    var config3 = [{text:'救助标准管理',ico:'null',href:'nodeId=4028a1c428cd24750128cd72e4070001&nodeName=救助标准管理&parentNodeName=业务监管子系统'},{text:'救助规则管理',ico:'null',href:'nodeId=4028a15c2a7012dc012a703e840d0007&nodeName=救助规则管理&parentNodeName=业务监管子系统'},{text:'机构监管',ico:'null',href:'nodeId=4028a15c29fdffd40129fe2058f70002&nodeName=机构监管&parentNodeName=业务监管子系统'},{text:'入户调查管理',ico:'null',href:'nodeId=4028a12b2b31e92b012b31f9944b0001&nodeName=入户调查管理&parentNodeName=业务监管子系统'},{text:'业务办理监管',ico:'null',href:'nodeId=4028a14730ba7ab70130ba7d09cf0001&nodeName=业务办理监管&parentNodeName=业务监管子系统'},{text:'违规管理',ico:'null',href:'nodeId=4028a1cb264e828301264f5b47350008&nodeName=违规管理&parentNodeName=业务监管子系统'},{text:'信访管理',ico:'null',href:'nodeId=4028a1cb2651518e012651696127001b&nodeName=信访管理&parentNodeName=业务监管子系统'},{text:'资金发放监管',ico:'null',href:'nodeId=8adc80b64c176afa014c6dd9b6e008f6&nodeName=资金发放监管&parentNodeName=业务监管子系统'}];
+    var config4 = [{text:'综合查询',ico:'null',href:'nodeId=4028a1cb264e828301264f9b7e5b001d&nodeName=综合查询&parentNodeName=统计决策子系统'},{text:'自定义查询',ico:'null',href:'nodeId=402881f72ccec133012ccf3894150004&nodeName=自定义查询&parentNodeName=统计决策子系统'},{text:'综合统计',ico:'null',href:'nodeId=4028a1c12916a0d0012916a81c290001&nodeName=综合统计&parentNodeName=统计决策子系统'}];
+    var config5 = null;
+    var config6 = [{text:'批量对象核对',ico:'null',href:'nodeId=402881e42a021813012a030cadec0031&nodeName=批量对象核对&parentNodeName=信息交换子系统'},{text:'统计台帐导出',ico:'null',href:'nodeId=4028a14926f9d5d30126f9e0fa80001d&nodeName=统计台帐导出&parentNodeName=信息交换子系统'},{text:'数据导出',ico:'null',href:'nodeId=402818815346e298015346e617ac0002&nodeName=数据导出&parentNodeName=信息交换子系统'}];
+    var config7 = [{text:'城市低保',ico:'null',href:'nodeId=402886af4bfc003a014bfc13ed490001&nodeName=城市低保&parentNodeName=历史数据采集子系统'},{text:'农村低保',ico:'null',href:'nodeId=402885994c4a385d014c4a91c7600171&nodeName=农村低保&parentNodeName=历史数据采集子系统'}];
+    var config8 = null;
+    var config9 = null;
+    var selectBusinessConfig = [{name:"救助业务子系统",ico:"1"},{name:"资金管理子系统",ico:"2"},{name:"业务监管子系统",ico:"3"},{name:"统计决策子系统",ico:"4"},{name:"信息交换子系统",ico:"6"},{name:"历史数据采集子系统",ico:"7"}]; //1级菜单的图标配置
+    var path    = 'saas';
+    var enterHTML = '<span class=btnSystem onclick="javascript:toSystem();" title="进入系统管理平台"></span>';
+    var backTabName='null';
+    function toSystem() {
+        var s = new Date();
+        window.location.href = path + "/login.do?act=forwardManager&s=" + s;
+    }
+</script>
+<script type="text/javascript" src="saas/scripts/js/common/tj-all.gzjs.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="scripts/js/common/iepng.js"></script>
+<script>
+    // DD_belatedPNG.fix('.logo,.logoSingle,.logoBig,.logoBig-single,.btnExit,.btnHelp,.btnSetPsw,.btnMes,.btnMesActive,.btnSystem,#userFunc,#subMenu,.selectModelLine,#currentPosition,#dept,#dept a:hover,#user,#user a:hover,#mail,#mail a:hover,#setPsw,#setPsw a:hover,#help,#help a:hover,#cancel,#cancel a:hover,#title01,#selectModel ul li,#icon01 a,#icon01 a:hover,#icon01,#icon01 a:active,  #icon02 a,#icon02 a:hover,#icon02 a:active, #icon03 a,#icon03 a:hover,#icon03 a:active,  #icon04 a,#icon04 a:hover,#icon04 a:active, #icon05,#icon09,  #icon05 a,#icon05 a:hover,#icon05 a:active,  #icon06 a,#icon06 a:hover,#icon06 a:active,   #icon07 a,#icon07 a:hover,#icon07 a:active,   #icon08 a,#icon08 a:hover,#icon08 a:active,   #icon09 a,#icon09 a:hover,#icon09 a:active,   #icon10 a,#icon10 a:hover,#icon10 a:active,   #icon11 a,#icon11 a:hover,#icon11 a:active,   #icon12 a,#icon12 a:hover,#icon12 a:active,   #icon13 a,#icon13 a:hover,#icon13 a:active,   #icon14 a,#icon14 a:hover,#icon14 a:active,   #icon15 a,#icon15 a:hover,#icon15 a:active,   #icon16 a,#icon16 a:hover,#icon16 a:active,   #icon17 a,#icon17 a:hover,#icon17 a:active,   #icon18 a,#icon18 a:hover,#icon18 a:active,   #icon19 a,#icon19 a:hover,#icon19 a:active,   #icon20 a,#icon20 a:hover,#icon20 a:active,   #icon21 a,#icon21 a:hover,#icon21 a:active,     #iconBusiness01 span,#iconBusiness01 span a:hover,.selcetedBusiness01,.grayBusiness01,  #iconBusiness02 span,#iconBusiness02 span a:hover,.selcetedBusiness02,.grayBusiness02,  #iconBusiness03 span,#iconBusiness03 span a:hover,.selcetedBusiness03, .grayBusiness03,  #iconBusiness04 span,#iconBusiness04 span a:hover,.selcetedBusiness04, .grayBusiness04, #iconBusiness05 span,#iconBusiness05 span a:hover,.selcetedBusiness05, .grayBusiness05, #iconBusiness06 span,#iconBusiness06 span a:hover,.selcetedBusiness06,.grayBusiness06,  #iconBusiness07 span,#iconBusiness07 span a:hover,.selcetedBusiness07,.grayBusiness07, img,background');
+</script>
+<![endif]-->
+</head>
+<body>
+</body>
+<script type="text/javascript" src="saas/scripts/js/common/help.js"></script>
+<script type="text/javascript" src="saas/scripts/js/common/plantform_new.js"></script>
+<script type="text/javascript" src="saas/scripts/js/common/md5.gzjs.js"></script>
+<script type="text/javascript" src="saas/scripts/js/common/password.gzjs.js"></script>
+</html>
+<script language="JavaScript">
+    var msgActive = "";
+    if (systemType == '1') {// 业务系统
+        var timer_ = setInterval('isFunction()', 1000);
+    }
+    // 执行轮询
+    function isFunction() {
+        if (typeof(polling) == "function") {
+            clearInterval(timer_);
+            polling();
+        }
+    }
+    // 判断是否有提示信息，如果有提示信息，则把图片变成闪烁状态
+    // 调用轮询方法向后台请求，并返回提醒信息
+    function polling() {
+        var exception = new Exception();
+        Ext.Ajax.request({
+            url : getRootPath() + '/task/task.do?act=longRequest',
+            params : {},
+            ignoreHeader : true,//忽略ajax响应失败的超时判断
+            success : function(response) {
+                var responseArray = exception
+                    .setResponseText(response.responseText);
+                if (responseArray.success == true
+                    && response.responseText != '') {
+                    msgActive = response.responseText;
+                    var ico = document.getElementById("btnMesId");
+                    ico.className = "btnMesActive";
+                    ico.style.background = "url(images/businesssaas/default/icon/iconHeaderNewActive.png) no-repeat -160px 0";
+                    try{
+                        ico.attachEvent("onclick",showMessageBox);
+                    }catch(e){
+                        ico.addEventListener("click", showMessageBox, false);
+                    }
+                    new Ext.ux.Notification({autoHide:true,hideDelay:3000}).showMessage('提示信息','<div class=tipInfo>' + msgActive + '</div>');
+                }
+
+            },
+            failure : function(response) {
+            }
+        });
+    };
+    function showMessageBox() {
+        var mes = msgActive;
+        var ico = document.getElementById("btnMesId");
+        if (ico.className == "btnMesActive") {
+            ico.className = "btnMes";
+            ico.style.background = "url(images/businesssaas/default/icon/iconHeaderNew.png) no-repeat -160px 0";
+            try{
+                ico.detachEvent("onclick",showMessageBox);
+            }catch(e){
+                ico.removeEventListener("click",showMessageBox,false);
+            }
+//		new Ext.ux.Notification({}).showMessage('提示信息',
+//				'<div class=tipInfo>' + mes + '</div>');
+            new Ext.ux.Notification({}).showMessage('提示信息',
+                '<div class=tipInfo>' + mes + '</div>');
+        }
+    }
+</script>
